@@ -340,7 +340,7 @@ background-color: var(--primary); font-weight: bold;}
 
 
 .navbar {
-  background: var(--black);
+  background: transparent;
 }
 
 /* All */
@@ -348,7 +348,7 @@ background-color: var(--primary); font-weight: bold;}
   display: block;
   padding: 0 2rem;
   text-decoration: none;
-  background: var(--white);
+  background: transparent;
   line-height: var(--navbottomheight);
 }
 
