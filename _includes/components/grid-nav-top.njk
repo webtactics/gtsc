@@ -7,7 +7,7 @@
 
 
     {% if entry.children.length %}
-      <ul class="second-level">
+       <ul class='navbar-menu'>
         {% for child in entry.children %}
           {{ renderNavListItem(child) }}
         {% endfor %}
@@ -15,7 +15,7 @@
     {% endif %}
   </li>
   {%- endmacro %}
-<ul class="main-menu">
+<ul class='navbar-menu'>
 {%- for entry in navPages %}{{ renderNavListItem(entry) }}{%- endfor -%}
 </ul>
 </nav>
