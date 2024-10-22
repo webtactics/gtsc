@@ -97,7 +97,7 @@ body {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: var(--black);
+  background-color: var(--primary);
   scroll-padding-top: var(--navbottomheight); 
 }
 
@@ -844,7 +844,7 @@ grid-template-rows: var(--headerheight);
   
   
   .topbar.scrolled {
-    background-color: var(--primarydark);
+    background-color: var(--primarylight);
     -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
