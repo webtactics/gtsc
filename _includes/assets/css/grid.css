@@ -359,7 +359,7 @@ background-color: var(--primary); font-weight: bold;}
 }
 
 /* Top-level */
-.navbar > .navbar-menu > li > a {
+.navbar .navbar-menu  li  a {
   display: inline-block;
   color: var(--white);
   background: transparent;
