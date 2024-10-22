@@ -372,7 +372,7 @@ letter-spacing: 0.8px;
 text-transform: uppercase;
 }
 
-.navbar > .navbar-menu > li > a.current {
+.navbar > .navbar-menu > li.active-class > a {
   display: inline-block;
   color: var(--primary);
   background: transparent;
