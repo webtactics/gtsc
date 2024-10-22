@@ -93,21 +93,11 @@
 	<div class="headerspace {{ title }}"></div>
 {% endblock %}
 
-{% block hero %}{% endblock %}
 
-{% block redgradient %}
-    <div class="redgradient">
-        <div class="content redgradientcontent">
-            <div class="redgradientcontentwrapper">
-            <h1 style="text-align:center;" class="text-center white" >{{ title }}</h1>
-                <div class="redgradientcontenttextbox">
-            <p style="text-align:center;" class="text-center white">{{ description }}</p>
-            
-                </div>
-            </div>
-        </div>
-    </div>
-{% endblock %}
+
+  {% block hero %}
+  {% include "components/hero-home.njk" %}
+  {% endblock %}
 
 
 {% block content %}
