@@ -942,7 +942,7 @@ grid-template-rows: var(--headerheight);
 .logo {display: flex;
   height: var(--headerheight);
   justify-content:flex-start;
-  align-items: ;
+  align-items: center;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
