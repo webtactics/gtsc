@@ -941,6 +941,8 @@ grid-template-rows: var(--headerheight);
 
 .logo {display: flex;
   height: var(--headerheight);
+  justify-content:flex-start;
+  align-items: ;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
@@ -950,6 +952,8 @@ grid-template-rows: var(--headerheight);
 
  .scrolled .logo {display: flex;
     height: var(--navbottomheight); 
+    justify-content:flex-start;
+    align-items: center;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -958,7 +962,7 @@ grid-template-rows: var(--headerheight);
  }
 
 
-  .logo img {max-width:260px;aspect-ratio: 260 / 182;
+  .logo img {max-width:260px;aspect-ratio: 368 / 257;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -966,7 +970,7 @@ grid-template-rows: var(--headerheight);
     transition: all 0.6s;
     height:auto;
   }
-.scrolled .logo img {max-width:220px;aspect-ratio: 220 / 154;
+.scrolled .logo img {max-width:220px;aspect-ratio: 220 / 153.6;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
@@ -977,13 +981,13 @@ grid-template-rows: var(--headerheight);
 
 
 
-.footernav .logo img {max-width:221px;aspect-ratio: 220 / 154;
+.footernav .logo img {max-width:221px;aspect-ratio: 220 / 153.6;
   -webkit-transition: all 1s;
 -moz-transition: all 1s;
 -ms-transition: all 1s;
 -o-transition: all 1s;
 transition: all 1s;}
-.footernav .scrolled .logo img {max-width:221px;aspect-ratio: 220 / 154;
+.footernav .scrolled .logo img {max-width:221px;aspect-ratio: 220 / 153.6;
   -webkit-transition: all 1s;
 -moz-transition: all 1s;
 -ms-transition: all 1s;
