@@ -962,7 +962,7 @@ grid-template-rows: var(--headerheight);
  }
 
 
-  .logo img {max-width:260px;aspect-ratio: 260 / 69;
+  .logo img {max-width:260px;aspect-ratio: 260 / 182;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
     -ms-transition: all 0.6s;
@@ -970,7 +970,7 @@ grid-template-rows: var(--headerheight);
     transition: all 0.6s;
     height:auto;
   }
-.scrolled .logo img {max-width:220px;aspect-ratio: 220 / 59;
+.scrolled .logo img {max-width:220px;aspect-ratio: 220 / 154;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
   -ms-transition: all 0.6s;
@@ -981,13 +981,13 @@ grid-template-rows: var(--headerheight);
 
 
 
-.footernav .logo img {max-width:221px;aspect-ratio: 221 / 59;
+.footernav .logo img {max-width:221px;aspect-ratio: 220 / 154;
   -webkit-transition: all 1s;
 -moz-transition: all 1s;
 -ms-transition: all 1s;
 -o-transition: all 1s;
 transition: all 1s;}
-.footernav .scrolled .logo img {max-width:221px;aspect-ratio: 221 / 59;
+.footernav .scrolled .logo img {max-width:221px;aspect-ratio: 220 / 154;
   -webkit-transition: all 1s;
 -moz-transition: all 1s;
 -ms-transition: all 1s;
@@ -1003,8 +1003,8 @@ transition: all 1s;}
     justify-content: flex-end;
     align-items: center;
     align-content: end;
-    height: 74px;
-    width:221px;
+    height: 154px;
+    width:220px;
   text-align: right;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
@@ -1018,8 +1018,8 @@ transition: all 1s;}
     justify-content: flex-end;
     align-items: center;
     align-content: end;
-    height: 74px;
-    width:221px;
+    height: 154px;
+    width:220px;
   text-align: right;
     -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
@@ -1035,9 +1035,9 @@ transition: all 1s;}
     align-content: end;
   height: 100%;
     width : 100%;
-    max-width:221px;
-    max-height:59px;
-    aspect-ratio: 221/ 59;
+    max-width:220px;
+    max-height:154px;
+    aspect-ratio: 220/ 154;
     -webkit-transition: all 1s;
 -moz-transition: all 1s;
 -ms-transition: all 1s;
