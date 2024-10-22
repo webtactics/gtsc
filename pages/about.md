@@ -1,5 +1,5 @@
 ---
-layout: layouts/default.njk
+layout: layouts/grid-default.njk
 title: About Gloucester Thunderbolts Swimming Club
 description: 
 section: about
