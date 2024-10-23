@@ -624,7 +624,7 @@ ul.infobox a {
   border: none;
 }
 
-.navbar-menu > li > a.social-icon {
+.navbar ul.navbar-menu  li a.social-icon {
   display: flex;
   height: var(--navbottomheight);
   line-height: var(--navbottomheight);
