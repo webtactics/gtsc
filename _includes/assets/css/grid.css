@@ -2,7 +2,8 @@
   --primary: hsla(211,50%,53%,1);
   --primarylight: hsla(211,50%,53%,0.6);
   --primarydark: hsla(211,58%,43%,1);
-  --darkblue: hsl(204, 96%, 18%);
+  --darkblue: hsla(204deg, 96%, 18%, 1);
+  --darkblue: hsla(204deg, 96%, 18%, 0.4);
   --primarybutton: #B11112;
 	--white: #ffffff;
 
@@ -2161,7 +2162,7 @@ min-height: 5.8rem;}
 @media (max-width: 1024px) {
 
   .flex-caption {
-    background: var(--black40);
+    background: var(--darkblue40);
     font-size: 14px;
     bottom: 54vh;
     left: 0px;
