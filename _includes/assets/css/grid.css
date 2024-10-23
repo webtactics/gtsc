@@ -752,10 +752,10 @@ ul.infoboxmobile a {
 
 .headerwrapper {
   display: grid;
-  grid-template-columns: 100px 1fr 40px;
+  grid-template-columns: 100px 1fr;
   grid-template-areas:
-  "hamburger navwrapper search-wrapper";
-    grid-template-rows: 74px;
+  "hamburger navwrapper";
+    grid-template-rows: 80px;
     z-index: 3;
 }  
 
