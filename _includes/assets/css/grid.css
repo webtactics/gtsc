@@ -526,6 +526,7 @@ cursor: pointer;
 ul.main-menu li ul.second-level li a {
     display: block;
     padding: .4rem 0;
+    font-size: 1rem;
     color: var(--white);
     background-color: var(--primarydark);
     width: 100%;
