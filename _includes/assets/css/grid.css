@@ -1891,15 +1891,15 @@ button.success, .button.success {
 
 display:flex;
 justify-content:center;
-align-items:center;
+align-items:end;
 
-  background-color: var(--primary);
+  background-color: var(--white);
   border: 0.3rem solid var(--primary);
   border-radius: 20px;
-  color: var(--white);
-  font-size: 1rem;
-  padding: 0.4rem 3rem;
-  margin:0;
+  color: var(--darkblue);
+  font-size: 14px;
+  padding: 3px 3rem;
+  margin:10px 0;
   text-decoration:none;
   -webkit-transition: all 0.6s;
   -moz-transition: all 0.8s;
@@ -1908,22 +1908,7 @@ align-items:center;
   transition: all 0.8s;
   cursor: pointer;
 }
-button.success.homepage, .button.success.homepage {justify-content:flex-end;
-  padding: 0.6rem 2rem;
-  border-radius: 40px;
-  font-size: 20px;}
 
-  button.success.fullwidth, .button.success.fullwidth {justify-content:center;
-    padding: 0.4rem;
-    border-radius: 40px;
-    font-size: 14px;
-  width:100%;}
-
-
-  button.success.homeboxes, .button.success.homeboxes {justify-content:flex-end;
-    padding: 0.6rem 1.2rem;
-    border-radius: 30px;
-    font-size: 14px;}
 
 button.success a, .button.success a {
   color: var(--white);
@@ -1943,13 +1928,7 @@ button.success:hover, button.success:focus, .button.success:hover, .button.succe
   cursor: pointer;
 }
 
-button.success.homepage:hover, button.success.homepage:focus, .button.success.homepage:hover, .button.success.homepage:focus {
-  border-radius: 40px;
-}
 
-button.success.homeboxes:hover, button.success.homeboxes:focus, .button.success.homeboxes:hover, .button.success.homeboxes:focus {
-  border-radius: 30px;
-}
 
 
 @media (max-width:800px) {
