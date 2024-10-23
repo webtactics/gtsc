@@ -407,25 +407,11 @@ text-transform: uppercase;
 
 
 
-ul.navbar-menu li ul li {
- border-bottom: 1px solid var(--primarylight);
- line-height:50px;
-}
-ul.navbar-menu li ul li:first-child {
-  border-bottom: 1px solid var(--primarylight);
-  border-top: 1px solid var(--primarylight);
-
- }
-ul.navbar-menu li ul li ul li {
-  border-bottom: 1px solid var(--primarylight);
-  border-left: 1px solid var(--primarylight);
-  line-height:50px;
- }
 
 .navbar-menu ul > li > ul {
   left: 100%;
   top: 0;
-  line-height:40px;
+
 }
 
 .navbar-menu li {
@@ -473,11 +459,11 @@ ul.second-level {
   }
   
 
-  
+
   
   ul.navbar-menu li ul.second-level a {
   text-transform:capitalize;
-    line-height:50px;
+    line-height:2.5rem;
     font-size: 1rem;
     padding:0 1rem;
    }
