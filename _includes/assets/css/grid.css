@@ -807,7 +807,7 @@ grid-template-rows: var(--headerheight);
   
   }
 
-  .hamburger.scrolled {
+  .scrolled .hamburger  {
     display: flex;
     justify-content: center;
     align-items: center;
