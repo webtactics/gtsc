@@ -503,7 +503,7 @@ cursor: pointer;
 }
 
 /* second level */
-ul.main-menu li ul.second-level li a {
+ul.navbar-menu li ul.second-level li a {
     display: block;
     padding: .4rem 0;
     font-size: 1rem;
@@ -515,7 +515,7 @@ ul.main-menu li ul.second-level li a {
     border-bottom: 1px solid (var(--lightgrey));
   }
 
-  ul.main-menu li ul.second-level li a:hover {
+  ul.navbar-menu li ul.second-level li a:hover {
     display: block;
     border-bottom: 1px solid (var(--lightgrey));
     color: var(--white);
