@@ -1792,7 +1792,9 @@ text-align:center;
 
 
 .toggle-nav {
-  display: block;
+  display: flex;
+  align-content: center;
+  justify-content: center;
   margin: 5px;
   font-size: 1rem;
   font-weight: 400;
@@ -1855,7 +1857,9 @@ text-align:center;
 }
 
   .scrolled .toggle-nav {
-    display: block;
+    display: flex;
+    align-content: center;
+    justify-content: center;
   margin: 5px;
   font-size: 1rem;
   font-weight: 400;
