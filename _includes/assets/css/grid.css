@@ -1887,61 +1887,11 @@ span.title-bar-title {display:block;text-indent:34px;padding:0;}
   background-color: var(--black);
   color: var(--white);
 }
-button.success, .button.success {
-
-display:flex;
-justify-content:end;
-align-items:flex-end;
-
-  background-color: var(--white);
-  border: 0.3rem solid var(--primary);
-  border-radius: 20px;
-  color: var(--darkblue);
-  font-size: 14px;
-  padding: 3px 3rem;
-  margin:0;
-  text-decoration:none;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.8s;
-  -ms-transition: all 0.8s;
-  -o-transition: all 0.8s;
-  transition: all 0.8s;
-  cursor: pointer;
-}
-
-
-button.success a, .button.success a {
-  color: var(--white);
-  text-decoration: none;
-}
-
-button.success:hover, button.success:focus, .button.success:hover, .button.success:focus {
-  background-color: var(--black);
-  border: 0.3rem solid var(--black);
-  border-radius: 20px;
-  color: var(--white);
-  -webkit-transition: all 0.8s;
-  -moz-transition: all 0.8s;
-  -ms-transition: all 0.8s;
-  -o-transition: all 0.8s;
-  transition: all 0.8s;
-  cursor: pointer;
-}
 
 
 
 
-@media (max-width:800px) {
 
-
-  button.success.homepage, .button.success.homepage {justify-content: center;
-    padding: 0.6rem 2rem;
-    border-radius: 40px;
-    font-size: 20px;
-    margin:1rem 0 0 0;
-  width:100%;}
-
-  }
 
 .close-nav-wrapper {
   display: flex;
@@ -3717,80 +3667,22 @@ img.coles:hover, img.woolworths:hover, img.iga:hover {
 }
 
 
-/* Changs TV 
-------------------------------------------------- */
-.embed-responsive {
-  position: relative;
-  display: block;
-  height: 0;
-  padding: 0;
-    padding-bottom: 0px;
-  overflow: hidden;
-}
 
-.embed-responsive-16by9 {
-  padding-bottom: 56.25%;
-}
 
-.embed-responsive .embed-responsive-item, .embed-responsive embed, .embed-responsive iframe, .embed-responsive object, .embed-responsive video {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  border: 0;
-}
-
-.newsletterlandingvideo p {
-  padding: 15px 0 2px 0;
-  margin: 0;
-}
-
-.newsletterlandingvideo h3 {
-  min-height: 4rem;
-}
-
-.videolanding h2 {
-  text-align: left;
-  position: relative;
-  margin: 0.3rem 0;
-  font-size: 1.1rem;
-  color: #FFFFFF;
-  font-weight: 500;
-}
 
 
 /* Gallery
 ------------------------------------------------- */
 
-.CGBlogDetailImage {position:relative;}
-
-
-
-
-    .galleryimgwrapper-link img:hover {
-      filter: brightness(120%);
-      box-shadow: 0 0.15rem 0.4rem #333333;
-      -webkit-transition: box-shadow 0.2s ease-in-out;
-      -moz-transition: box-shadow 0.2s ease-in-out;
-      -o-transition: box-shadow 0.2s ease-in-out;
-      transition: box-shadow 0.2s ease-in-out;
-   
-  }
-
-
-
-
-
-  .corporateimage {
-    padding: 15px 10px;
-    margin: 1rem auto;
-    -webkit-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.3);
-    -moz-box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.3);
-    box-shadow: 2px 2px 5px rgba(50, 50, 50, 0.3);
-  }
 
   
 
-
+.swimcentral {
+font-size:1rem;
+  margin: 0;
+  padding: .25rem 3rem;
+  width: auto;
+  background-color: var(--white);
+  border:2px solid var(--primary);
+  border-radius: 20px;
+}
