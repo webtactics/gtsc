@@ -611,6 +611,15 @@ ul.infobox li, ul.infoboxmobile li {
   color : var(--black);
 }
 
+.social-icon svg {
+    color : var(--white);
+  }
+  
+  .social-icon svg:hover {
+    color : var(--black);
+  }
+
+
 @media (max-width: 1024px) {
   .social-contact  {  display: flex;
     flex-direction: row;}
