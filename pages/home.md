@@ -1,5 +1,5 @@
 ---
-layout: layouts/home.njk
+layout: layouts/grid-home.njk
 title: Gloucester Thunderbolts Swimming Club
 subtitle: 
 class: home
