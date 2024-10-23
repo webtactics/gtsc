@@ -88,8 +88,9 @@
 
 
 
-  {% block hero %}
+{% block hero %}
 <section class="sliderbox">
+    <div class="caption-text"><h1><span>{{ title }}</span></h1></div>
 <div class="hero hide-for-print">     
 <picture>
 <source media="(max-width: 600px)" srcset="https://ik.imagekit.io/webtactics/GTSC/assets/blog_hero_QKeD20ytJ.jpg?updatedAt=1721345287338">
@@ -98,7 +99,7 @@
 </picture>
 </div>
 </section>
-  {% endblock %}
+{% endblock %}
 
 
 {% block content %}
