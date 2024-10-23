@@ -420,8 +420,8 @@ text-align: left;
 background-color: var(--black);
 }
 
-.navbar-menu ul a:hover,
-.navbar-menu ul a:focus {
+.navbar-menu .navbar-menu ul a:hover,
+.navbar-menu .navbar-menu ul a:focus {
   background: var(--white);
   color: var(--black);
   line-height:50px;
