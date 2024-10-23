@@ -2083,8 +2083,7 @@ z-index: 0;
   width: calc(80vw - 2rem);
   max-width: 800px;
   margin: 0;
-  border-top-left-radius: 16px;
-  border-top-right-radius: 16px;
+  border-radius: 16px;
   z-index: 1;
 
   animation-name: fadein;
