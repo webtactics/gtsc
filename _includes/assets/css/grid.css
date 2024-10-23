@@ -2009,7 +2009,16 @@ button.blogdetail, .button.blogdetail {margin:0;}
   overflow: hidden;
  
 }
-
+.home.hero {
+    height: 80svh;
+    height: 80vh;
+    width: 100%;
+    position:relative;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+   
+  }
 
 
 .hero img {
@@ -2049,7 +2058,7 @@ z-index: 0;
 
 
 
-.content.homeherobox {
+.content.herobox {
   position: relative;
   background-color: transparent;
   width: calc(80vw - 2rem);
