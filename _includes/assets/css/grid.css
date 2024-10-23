@@ -741,6 +741,7 @@ ul.infoboxmobile a {
 /* layout */
 
 .hamburger { grid-area: hamburger; }
+.hamburgerright { grid-area: hamburgerright; }
 .navwrapper { grid-area: navwrapper; }
 .logo { grid-area: logo; }
 .navrightside { grid-area: navrightside; }
@@ -770,9 +771,9 @@ ul.infoboxmobile a {
 
 .headerwrapper {
 display: grid;
-grid-template-columns: 100px 1fr;
+grid-template-columns: 100px 1fr 100px;
 grid-template-areas:
-"hamburger navwrapper";
+"hamburger navwrapper hamburgerright";
 grid-template-rows: var(--headerheight);
 -webkit-transition: all 0.6s;
   -moz-transition: all 0.6s;
@@ -783,9 +784,9 @@ grid-template-rows: var(--headerheight);
 
  .headerwrapper.scrolled {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 100px 1fr 100px;
   grid-template-areas:
-  "hamburger navwrapper";
+  "hamburger navwrapper hamburgerright";
   grid-template-rows: var(--navbottomheight); 
   -webkit-transition: all 0.6s;
     -moz-transition: all 0.6s;
