@@ -1881,8 +1881,9 @@ text-align:center;
 
 .hamburger-icon:before {
   content: "";
-  display:block;
-    position:fixed;
+  display: flex;
+  align-content: center;
+  justify-content: center;
     width: 24px;
     height: 4px;
     margin:0px;
