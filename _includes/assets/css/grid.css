@@ -3678,10 +3678,12 @@ img.coles:hover, img.woolworths:hover, img.iga:hover {
   
 
 .swimcentral {
+    display: inline-flex;
+    align-items: center;
 font-size:1rem;
   margin: 0;
   padding: 5px 40px;
- margin:4px 0 0 0;
+ margin:0;
   background-color: var(--white);
   border:2px solid var(--primary);
   border-radius: 20px;
