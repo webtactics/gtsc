@@ -662,11 +662,11 @@ ul.infobox a {
   border: none;
 }
 
-.infobox > li > a.social-icon {
+.navbar-men > li > a.social-icon {
   display: flex;
   height: var(--navtopheight);
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   cursor: pointer;
   padding: 0 0 0 2rem;
 
