@@ -486,26 +486,12 @@ ul.navbar-menu li.parent::after {
 
 
 
-.navbar > .navbar-menu > li.search-icon > a {
-  display: flex;
-  height: var(--navbottomheight);
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  padding: 0 0 0 2rem;
 
-}
-
-.navbar > .navbar-menu > li.search-icon > a:hover, .navbar > .navbar-menu > li.search-icon > a:focus {
-background-color: var(--black);
-cursor: pointer;
-
-}
 
 /* second level */
 ul.navbar-menu li ul.second-level li a {
     display: block;
-    padding: .4rem 0;
+    padding: 0 1rem;
     font-size: 1rem;
     color: var(--white);
     background-color: var(--primarydark);
