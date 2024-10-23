@@ -3685,8 +3685,7 @@ a.swimcentral {
     align-items: center;
 font-size:1rem;
   margin: 0;
-  padding: 3px 40px;
- margin:0;
+  padding: 1px 40px;
  color: var(--red);
   background-color: var(--white);
   border:3px solid var(--black);
@@ -3697,8 +3696,7 @@ a.swimcentral:hover {
     align-items: center;
 font-size:1rem;
   margin: 0;
-  padding: 3px 40px;
- margin:0;
+  padding: 1px 40px;
  color: var(--green);
   background-color: var(--black);
   border:3px solid var(--white);
