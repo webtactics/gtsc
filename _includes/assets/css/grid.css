@@ -484,6 +484,7 @@ ul.navbar-menu li ul.second-level li a {
     text-align: left;
     text-decoration: none;
     border-bottom: 1px solid (var(--lightgrey));
+    transition: background 300ms ease;
   }
 
   ul.navbar-menu li ul.second-level li a:hover {
@@ -493,6 +494,7 @@ ul.navbar-menu li ul.second-level li a {
     background-color: var(--primary);
     text-align: left;
     text-decoration: none;
+    transition: background 300ms ease;
   }
 
 
@@ -507,6 +509,7 @@ ul.navbar-menu li ul.second-level li a {
     text-decoration: none;
     border-bottom: 1px solid (var(--lightgrey));
     text-transform:capitalize;
+    transition: background 300ms ease;
   }
 
   .navbar ul.navbar-menu li.active-class  ul.second-level li a:hover {
@@ -517,6 +520,7 @@ ul.navbar-menu li ul.second-level li a {
     text-align: left;
     text-decoration: none;
     text-transform:capitalize;
+    transition: background 300ms ease;
   }
 
 
@@ -531,6 +535,7 @@ ul.navbar-menu li ul.second-level li a {
     text-decoration: none;
     border-bottom: 1px solid (var(--lightgrey));
     text-transform:uppercase;
+    transition: background 300ms ease;
   }
 
   .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
@@ -541,6 +546,7 @@ ul.navbar-menu li ul.second-level li a {
     text-align: left;
     text-decoration: none;
     text-transform:uppercase;
+    transition: background 300ms ease;
   }
 
 /* end second level */
