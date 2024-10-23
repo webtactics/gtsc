@@ -347,7 +347,7 @@ background-color: var(--primary); font-weight: bold;}
 /* All */
 .navbar-menu a {
   display: block;
-  padding: 0 2rem;
+  padding: 0 3rem;
   text-decoration: none;
   background: transparent;
   line-height: var(--navbottomheight);
