@@ -522,6 +522,27 @@ cursor: pointer;
 
 }
 
+/* second level */
+ul.main-menu li ul.second-level li a {
+    display: block;
+    padding: .4rem 0;
+    color: var(--primary);
+    width: 160px;
+    text-align: center;
+    text-decoration: none;
+    border-bottom: 1px solid (var(--lightgrey));
+  }
+
+  ul.main-menu li ul.second-level li a:hover {
+    display: block;
+    border-bottom: 1px solid (var(--lightgrey));
+    color: var(--white);
+    background-color: var(--primary);
+    text-align: center;
+    text-decoration: none;
+  }
+
+/* end second level */
 svg {
   color : var(--white);
 }
