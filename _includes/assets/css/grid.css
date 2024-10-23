@@ -373,7 +373,7 @@ text-transform: uppercase;
 
 .navbar .navbar-menu li.active-class  a {
   display: inline-block;
-  color: var(--primary);
+  color: var(--black);
   background: transparent;
 font-family: 'Roboto' , sans-serif;
 font-size: 20px;
@@ -385,8 +385,8 @@ text-transform: uppercase;
 
 .navbar  .navbar-menu  li  a:hover,
 .navbar  .navbar-menu > li  a:focus {
-  background: var(--black);
-  color: var(--primary);
+  background: var(--primary);
+  color: var(--black);
 }
 
 .navbar-menu {
