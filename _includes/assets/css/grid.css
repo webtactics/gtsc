@@ -428,15 +428,13 @@ background-color: var(--black);
 
 }
 
-ul.navbar-menu li ul a {
-text-transform: uppercase;
+ul.navbar-menu li ul.second-level a {
+text-transform:capitalize;
   line-height:50px;
+  font-size: 1rem;
  }
 
- ul.navbar-menu li ul li.current a.current {
-  background: var(--white);
-  color: var(--primary);
-   }
+
 
 ul.navbar-menu li ul li {
  border-bottom: 1px solid var(--primarylight);
@@ -463,25 +461,7 @@ ul.navbar-menu li ul li ul li {
 position: relative;
 }
 
-/* 
-  HACK: Prevents box shadow from child dropdowns
-  from overlapping its parent dropdown
-*/
-.navbar-menu li.parent> a {
-  position: relative;
-}
 
-.navbar-menu li.parent> a:after {
-  position: absolute;
-  content: '';
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 1rem;
-  background: inherit;
-  z-index: 999;
-}
-/* ENDHACK */
 
 .navbar-menu li:hover > ul,
 .navbar-menu li:focus-within > ul /* IE11+ only */ {
