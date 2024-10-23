@@ -662,7 +662,7 @@ ul.infobox a {
   border: none;
 }
 
-.navbar-men > li > a.social-icon {
+.navbar-menu > li > a.social-icon {
   display: flex;
   height: var(--navtopheight);
   justify-content: center;
