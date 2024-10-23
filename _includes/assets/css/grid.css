@@ -403,37 +403,7 @@ text-transform: uppercase;
 }
 
 /* Nested */
-.navbar-menu ul {
-  position: absolute;
-  left: 0;
-  top: 100%;
-  visibility: hidden;
-  opacity: 0;
-  width: 10rem;
- 
 
-}
-
-.navbar-menu ul a {
-color: var(--white);
-text-align: left;
-background-color: var(--black);
-}
-
-.navbar-menu .navbar-menu ul a:hover,
-.navbar-menu .navbar-menu ul a:focus {
-  background: var(--white);
-  color: var(--black);
-  line-height:50px;
-
-}
-
-ul.navbar-menu li ul.second-level a {
-text-transform:capitalize;
-  line-height:50px;
-  font-size: 1rem;
-  padding:0 1rem;
- }
 
 
 
@@ -455,7 +425,7 @@ ul.navbar-menu li ul li ul li {
 .navbar-menu ul > li > ul {
   left: 100%;
   top: 0;
-  line-height:50px;
+  line-height:40px;
 }
 
 .navbar-menu li {
@@ -490,6 +460,32 @@ ul.navbar-menu li.parent::after {
 
 
 /* second level */
+
+ul.second-level {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    visibility: hidden;
+    opacity: 0;
+    width: 14rem;
+   
+  
+  }
+  
+
+  
+  
+  ul.navbar-menu li ul.second-level a {
+  text-transform:capitalize;
+    line-height:50px;
+    font-size: 1rem;
+    padding:0 1rem;
+   }
+
+
+
+
+
 ul.navbar-menu li ul.second-level li a {
     display: block;
     padding: 0 1rem;
