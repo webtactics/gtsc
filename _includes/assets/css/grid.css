@@ -1890,7 +1890,7 @@ span.title-bar-title {display:block;text-indent:34px;padding:0;}
 button.success, .button.success {
 
 display:flex;
-justify-content:center;
+justify-content:end;
 align-items:flex-end;
 
   background-color: var(--white);
