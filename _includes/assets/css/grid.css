@@ -398,7 +398,7 @@ background-color: var(--primary); font-weight: bold;}
 .navbar ul.navbar-menu  li  a {
     display: inline-block;
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     font-style: normal;
     letter-spacing: 0.8px;
@@ -410,10 +410,10 @@ background-color: var(--primary); font-weight: bold;}
 .navbar ul.navbar-menu li.active-class  a {
     display: inline-block;
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     font-size: 1rem;
     font-style: normal;
-    letter-spacing: 0.8px;
+    letter-spacing: 0;
     text-transform: uppercase;
     color: var(--black);
     background: transparent;
