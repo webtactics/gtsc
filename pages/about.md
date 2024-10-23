@@ -1,13 +1,13 @@
 ---
 layout: layouts/grid-default.njk
-title: About Gloucester Thunderbolts Swimming Club
+title: About the Gloucester Thunderbolts Swimming Club
 description: 
 section: about
 class: about
-date: 2024-07-18
+date: 2024-10-23
 permalink: /about/
 metadata:
-  title: About Gloucester Thunderbolts Swimming Club
+  title: About the Gloucester Thunderbolts Swimming Club
 eleventyNavigation:
   key: About
   order: 1
