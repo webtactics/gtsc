@@ -401,7 +401,7 @@ background-color: var(--primary); font-weight: bold;}
     font-weight: 600;
     font-size: 1rem;
     font-style: normal;
-    letter-spacing: 0.8px;
+    letter-spacing: 1px;
     text-transform: uppercase;
     color: var(--white);
     background: var(--primarydark);
@@ -413,7 +413,7 @@ background-color: var(--primary); font-weight: bold;}
     font-weight: 600;
     font-size: 1rem;
     font-style: normal;
-    letter-spacing: 0;
+    letter-spacing: 0.8px;
     text-transform: uppercase;
     color: var(--black);
     background: transparent;
