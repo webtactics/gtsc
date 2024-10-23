@@ -432,6 +432,7 @@ ul.navbar-menu li ul.second-level a {
 text-transform:capitalize;
   line-height:50px;
   font-size: 1rem;
+  padding:0 1rem;
  }
 
 
@@ -493,8 +494,8 @@ ul.navbar-menu li ul.second-level li a {
     display: block;
     padding: 0 1rem;
     font-size: 1rem;
-    color: var(--white);
-    background-color: var(--primarydark);
+    color: var(--primary);
+    background-color: var(--white);
     width: 100%;
     text-align: left;
     text-decoration: none;
