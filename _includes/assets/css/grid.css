@@ -485,7 +485,6 @@ ul.second-level {
 
 
 
-
 ul.navbar-menu li ul.second-level li a {
     display: block;
     padding: 0 1rem;
@@ -499,6 +498,28 @@ ul.navbar-menu li ul.second-level li a {
   }
 
   ul.navbar-menu li ul.second-level li a:hover {
+    display: block;
+    border-bottom: 1px solid (var(--lightgrey));
+    color: var(--white);
+    background-color: var(--primary);
+    text-align: left;
+    text-decoration: none;
+  }
+
+
+  .navbar ul.navbar-menu li.active-class  ul.second-level li a {
+    display: block;
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: var(--primary);
+    background-color: var(--white);
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 1px solid (var(--lightgrey));
+  }
+
+  .navbar ul.navbar-menu li.active-class  ul.second-level li a:hover {
     display: block;
     border-bottom: 1px solid (var(--lightgrey));
     color: var(--white);
