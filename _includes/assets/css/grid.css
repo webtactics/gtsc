@@ -517,6 +517,7 @@ ul.navbar-menu li ul.second-level li a {
     text-align: left;
     text-decoration: none;
     border-bottom: 1px solid (var(--lightgrey));
+    text-transform:capitalize;
   }
 
   .navbar ul.navbar-menu li.active-class  ul.second-level li a:hover {
@@ -526,6 +527,31 @@ ul.navbar-menu li ul.second-level li a {
     background-color: var(--primary);
     text-align: left;
     text-decoration: none;
+    text-transform:capitalize;
+  }
+
+
+  .navbar ul.navbar-menu li  ul.second-level li.active-class a {
+    display: block;
+    padding: 0 1rem;
+    font-size: 1rem;
+    color: var(--white);
+    background-color: var(--primary);
+    width: 100%;
+    text-align: left;
+    text-decoration: none;
+    border-bottom: 1px solid (var(--lightgrey));
+    text-transform:uppercase;
+  }
+
+  .navbar ul.navbar-menu li  ul.second-level li.active-class a:hover {
+    display: block;
+    border-bottom: 1px solid (var(--lightgrey));
+    color: var(--white);
+    background-color: var(--primary);
+    text-align: left;
+    text-decoration: none;
+    text-transform:uppercase;
   }
 
 /* end second level */
