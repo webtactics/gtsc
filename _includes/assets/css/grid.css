@@ -390,7 +390,7 @@ background-color: var(--primary); font-weight: bold;}
 font-family: 'Roboto' , sans-serif;
 font-size: 20px;
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 letter-spacing: 0.8px;
 text-transform: uppercase;
 }
@@ -402,7 +402,7 @@ text-transform: uppercase;
 font-family: 'Roboto' , sans-serif;
 font-size: 20px;
 font-style: normal;
-font-weight: 600;
+font-weight: 500;
 letter-spacing: 0.8px;
 text-transform: uppercase;
 }
