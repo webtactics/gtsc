@@ -399,7 +399,7 @@ background-color: var(--primary); font-weight: bold;}
     display: inline-block;
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1rem;
     font-style: normal;
     letter-spacing: 0.8px;
     text-transform: uppercase;
@@ -411,7 +411,7 @@ background-color: var(--primary); font-weight: bold;}
     display: inline-block;
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1rem;
     font-style: normal;
     letter-spacing: 0.8px;
     text-transform: uppercase;
