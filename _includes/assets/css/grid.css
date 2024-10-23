@@ -664,7 +664,7 @@ ul.infobox a {
 
 .navbar-menu > li > a.social-icon {
   display: flex;
-  height: var(--navtopheight);
+  height: var(--navtbottomheight);
   justify-content: center;
   align-items: flex-end;
   cursor: pointer;
