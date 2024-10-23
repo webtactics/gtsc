@@ -409,7 +409,7 @@ text-transform: uppercase;
   top: 100%;
   visibility: hidden;
   opacity: 0;
-  width: 14rem;
+  width: 10rem;
  
 
 }
@@ -471,102 +471,10 @@ position: relative;
   position: relative;
 }
 
-.navbar-menu li.parent> a:after {
-  position: absolute;
-  content: '';
-  top: 0;
-  right: 0;
-  height: 100%;
-  width: 1rem;
-  background: inherit;
-  z-index: 999;
-}
-/* ENDHACK */
-
-.navbar-menu li:hover > ul,
-.navbar-menu li:focus-within > ul /* IE11+ only */ {
-  display: block;
-  visibility: visible;
-  opacity: 1;
-  transition-delay: 0s;
-}
-
-ul.navbar-menu li.parent::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 1rem;
-  margin-top: -3px;
-  height: 0;
-  width: 0;
-  border: 5px solid transparent;
-    border-top-color: transparent;
-  border-top-color: var(--white);
-}
-
-ul.navbar-menu li.parent:hover::after {
-  border-top-color: var(--primary);
-}
-ul.navbar-menu li.current.parent::after {
-  border-top-color: var(--primary);
-}
-ul.navbar-menu li.current.parent:hover::after {
-  border-top-color: var(--white);
-}
-ul.navbar-menu ul li.parent::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 1rem;
-  margin-top: -3px;
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 5px 0 5px 8px;
-  border-color: transparent transparent transparent var(--white);
-  transform: rotate(0deg);
-}
-
-ul.navbar-menu ul ul li.parent::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 1rem;
-  margin-top: -3px;
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 5px 0 5px 8px;
-  border-color: transparent transparent transparent transparent;
-  transform: rotate(0deg);
-}
-
-ul.navbar-menu ul ul li.parent::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 1rem;
-  margin-top: -3px;
-  width: 0px;
-  height: 0px;
-border:none;
-  transform: rotate(0deg);
-}
 
 
-ul.navbar-menu ul li.parent:hover::after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: 1rem;
-  margin-top: -3px;
-  width: 0px;
-  height: 0px;
-  border-style: solid;
-  border-width: 5px 0 5px 8px;
-  border-color: transparent transparent transparent var(--black);
-  transform: rotate(0deg);
-}
+
+
 
 .navbar > .navbar-menu > li.search-icon > a {
   display: flex;
