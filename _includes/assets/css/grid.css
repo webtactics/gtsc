@@ -2083,8 +2083,8 @@ z-index: 0;
 
 padding: 2rem;
   color: var(--white);
-  border-top-left-radius: 1rem;
-  border-top-right-radius: 1rem;
+  border-radius: 1rem;
+
 
 }
 
