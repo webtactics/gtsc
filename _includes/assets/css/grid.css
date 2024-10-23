@@ -750,6 +750,12 @@ ul.infoboxmobile a {
 .search-wrapper { grid-area: search-wrapper; }
 
 
+
+
+
+
+
+
 .headerwrapper {
   display: grid;
   grid-template-columns: 100px 1fr;
@@ -761,6 +767,7 @@ ul.infoboxmobile a {
 
 
 @media (min-width: 1025px) {  
+
 .headerwrapper {
 display: grid;
 grid-template-columns: 100px 1fr;
@@ -787,7 +794,31 @@ grid-template-rows: var(--headerheight);
     transition: all 0.6s;
    } 
 
+   .hamburger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--headerheight);
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+  
+  }
 
+  .hamburger.scrolled {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: var(--navbottomheight); 
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transition: all 0.6s;
+  
+  }
   
 .topbar {
     position: fixed;
