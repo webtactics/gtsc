@@ -3677,14 +3677,27 @@ img.coles:hover, img.woolworths:hover, img.iga:hover {
 
   
 
-.swimcentral {
+a.swimcentral {
     display: inline-flex;
     align-items: center;
 font-size:1rem;
   margin: 0;
-  padding: 5px 40px;
+  padding: 4px 40px;
  margin:0;
+ color: var(--red);
   background-color: var(--white);
-  border:2px solid var(--primary);
+  border:3px solid var(--black);
+  border-radius: 20px;
+}
+a.swimcentral:hover {
+    display: inline-flex;
+    align-items: center;
+font-size:1rem;
+  margin: 0;
+  padding: 4px 40px;
+ margin:0;
+ color: var(--green);
+  background-color: var(--black);
+  border:3px solid var(--white);
   border-radius: 20px;
 }
