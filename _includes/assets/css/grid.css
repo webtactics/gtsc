@@ -363,7 +363,7 @@ background-color: var(--primary); font-weight: bold;}
 .navbar ul.navbar-menu  li  a {
   display: inline-block;
   color: var(--white);
-  background: transparent;
+  background: var(--primarydark);
 font-family: 'Roboto' , sans-serif;
 font-size: 20px;
 font-style: normal;
