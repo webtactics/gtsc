@@ -666,7 +666,7 @@ ul.infobox a {
   display: flex;
   height: var(--navbottomheight);
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   cursor: pointer;
   padding: 0 0 0 2rem;
 
