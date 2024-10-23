@@ -10,9 +10,6 @@ eleventyNavigation:
   parent: About
   order: 1
 ---
-
-
-
 Swimming is a good all-round activity with many health benefits and club nights provide a friendly social environment for swimmers and their families. Why wouldn't you want to be involved?
 
 At Gloucester Thunderbolts Swimming Club we provide opportunities for swimmers of all levels to improve their swimming and achieve personal goals. We are a family friendly club offering a friendly and relaxed environment for all swimmers, both young and old. 
@@ -28,3 +25,13 @@ Races are organised according to swimmers' times, this is to help provide an opp
 We rely on our parents to be active in running each club night, especially with setting up the lane ropes, time-keeping duties, marshalling and the end of night pack up. These activities are a great way to meet fellow parents and ensures that club nights operate smoothly.
 
 Gloucester Thunderbolts welcome you and your family to our club and look forward to seeing you at the pool.
+
+
+
+
+
+
+```
+
+
+
