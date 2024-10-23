@@ -1,5 +1,5 @@
 ---
-layout: layouts/default.njk
+layout: layouts/grid-default.njk
 title: Useful links and Resources
 class: about
 metaDescription: Useful links and Resources

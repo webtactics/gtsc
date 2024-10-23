@@ -1,5 +1,5 @@
 ---
-layout: layouts/default.njk
+layout: layouts/grid-default.njk
 title: Club Events and Swim NSW Meets
 description: 
 section: events

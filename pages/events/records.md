@@ -1,5 +1,5 @@
 ---
-layout: layouts/default.njk
+layout: layouts/grid-default.njk
 title: Club and Swim NSW Records
 class: events
 metaDescription: All the swim records for the club and Swim NSW events.

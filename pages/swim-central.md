@@ -1,5 +1,5 @@
 ---
-layout: layouts/default.njk
+layout: layouts/grid-default.njk
 title: Swim Central
 description: 
 section: swim-central
