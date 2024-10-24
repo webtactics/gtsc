@@ -1810,6 +1810,12 @@ text-align:center;
   z-index: 3;
   padding:10px;
  }
+
+ .scrolled .toggle-nav {
+
+  padding:5px;
+}
+
  @media screen and (max-width: 1025px) {
   .toggle-nav {
   display: block;
@@ -1854,25 +1860,7 @@ text-align:center;
 
 }
 
-  .scrolled .toggle-nav {
-    display: block;
-  margin: 5px;
-  font-size: 1rem;
-  font-weight: 400;
-  color: var(--white);
-  cursor: pointer;
-   background: transparent;
-  border: none;
-  width: 60px;
-  height: 60px;
-  -webkit-transition: all 0.6s;
-  -moz-transition: all 0.6s;
-  -ms-transition: all 0.6s;
-  -o-transition: all 0.6s;
-  transition: all 0.6s;
-  z-index: 3;
-  padding:5px;
-}
+
 
 
 .hamburger-icon:before {
