@@ -16,7 +16,8 @@
 
 <div class="resultswrapper">
      <h2>2024-25 Season Club Night Results</h2>
-{% set postslist = collections.results %}
+	  {%- for post in collections.results | reverse | limit(3) -%} 
+
 {% include "components/postslist-results.njk" %}
 </div>
 
