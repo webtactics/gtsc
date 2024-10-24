@@ -62,7 +62,7 @@
     font-style: normal;
     font-weight: 400;
     src: url('fonts/montserrat-v26-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('https://webtactics.b-cdn.ne/fonts/montserrat-v26-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('fonts/montserrat-v26-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
   }
   
   /* montserrat-600 - latin */
@@ -72,7 +72,7 @@
     font-style: normal;
     font-weight: 600;
     src: url('fonts/montserrat-v26-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('https://webtactics.b-cdn.net/fonts/montserrat-v26-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+         url('fonts/montserrat-v26-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
   }
   
 
@@ -2086,7 +2086,6 @@ padding: 1rem;
 .flex-caption h1 {
     font-family: 'Montserrat',Helvetica,Arial,Lucida,sans-serif;
     font-weight: 400;
-    font-size:3rem;
     line-height: 1;
     color: var(--white);
     text-align: left;
