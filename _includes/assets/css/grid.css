@@ -3779,4 +3779,5 @@ button.success.homeboxes, .button.success.homeboxes {
   padding: 0.6rem 1.2rem;
   border-radius: 30px;
   font-size: 14px;
+  background-color: var(--red);
 }
