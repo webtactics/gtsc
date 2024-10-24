@@ -1,0 +1,19 @@
+{% extends "layouts/grid-default.njk" %}
+
+
+
+
+{% block content2 %}
+
+<div class="container">
+	<div class="content">
+
+<div class="resultswrapper">
+    <h2>2024-25 Season Club Night Results</h2>
+	{% set postslist = collections.results | limit(3) -%} 
+	{% include "components/postslist-results.njk" %}
+</div>
+
+	</div>
+</div>
+{% endblock %}

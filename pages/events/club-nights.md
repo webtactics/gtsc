@@ -1,6 +1,6 @@
 ---
-layout: layouts/grid-default.njk
-title: Club Nights
+layout: layouts/grid-clubnights.njk
+title: Swimming Club Nights
 class: events
 metaDescription: Whether you choose to avoid gluten for lifestyle or health reasons, going gluten-free doesn’t mean missing out. Chang’s has a great range of gluten free and wheat free (tamari) products options just for you!
 date: 2024-08-22
@@ -10,7 +10,32 @@ eleventyNavigation:
   parent: Events
   order: 1
 ---
-Club Nights
+### Gloucester Thunderbolts Swimming Club runs from mid Oct until March on Thursday evenings at 6.00pm at the Gloucester Pool Complex. All ages and abilities are welcome.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 
 
