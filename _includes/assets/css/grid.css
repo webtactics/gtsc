@@ -3731,7 +3731,7 @@ font-size:1rem;
   padding: 1px 40px;
  color: var(--white);
   background-color: var(--darkblue);
-  border:3px solid var(--white);
+  border:2px solid var(--white);
   border-radius: 20px;
 
   
@@ -3744,6 +3744,6 @@ font-size:1rem;
   padding: 1px 40px;
  color: var(--darkblue);
   background-color: var(--white);
-  border:3px solid var(--darkblue);
+  border:2px solid var(--darkblue);
   border-radius: 20px;
 }
