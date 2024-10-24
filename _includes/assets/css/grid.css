@@ -690,7 +690,7 @@ ul.infoboxmobile a {
 
 }
 /* footer layout */
-.footernavwrapper {  background-color: var(--primarydark);}
+.footernavwrapper {  background-color: var(--darkblue);}
 
 .footernavwrapper ul.infobox a {
   margin: 0;
