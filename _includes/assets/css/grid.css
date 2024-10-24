@@ -1406,7 +1406,9 @@ align-items: center;
   min-height: 100px;
 }
 
-
+.content.secondblock {
+  padding: 0 0 6rem;
+}
 
 @media (max-width: 1400px) {
   .content {
