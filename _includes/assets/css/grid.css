@@ -3688,8 +3688,6 @@ font-size:1rem;
   background-color: var(--darkblue);
   border:2px solid var(--white);
   border-radius: 20px;
-
-  
 }
 a.swimcentral:hover {
     display: inline-flex;
@@ -3705,7 +3703,7 @@ font-size:1rem;
 
 .resultssummary {
   margin: 0 0 2rem 0;
-  padding: .75rem;
+  padding: 1.25rem;
   background-color: var(--white);
   border: 1px solid var(--primary);
   -webkit-transition: all .2s ease-in-out;
@@ -3715,7 +3713,7 @@ font-size:1rem;
 }
 
 .resultssummary:hover {
-  box-shadow: 0 2px 8px var(--grey);
+  box-shadow: 0 2px 8px var(--lightgrey);
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -3723,9 +3721,35 @@ font-size:1rem;
   border: 1px solid var(--primary);
 }
 
-.flex-captionbutton {
-  display: flex;
-  justify-content: flex-end;
+
+a.resultspdf {
+  display: inline-flex;
   align-items: center;
+font-size:1.4rem;
+margin: 0;
+padding: 1rem 2rem;
+color: var(--darkblue);
+background-color: var(--white);
+border:2px solid var(--darkblue);
+border-radius: 20px;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
 }
 
+a.swimcentral:hover {
+  display: inline-flex;
+  align-items: center;
+font-size:1.4rem;
+margin: 0;
+padding: 1rem 2rem;
+color: var(--white);
+background-color: var(--darkblue);
+border:2px solid var(--red);
+border-radius: 20px;
+-webkit-transition: all .2s ease-in-out;
+-moz-transition: all .2s ease-in-out;
+-o-transition: all .2s ease-in-out;
+transition: all .2s ease-in-out;
+}
