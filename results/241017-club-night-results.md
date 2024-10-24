@@ -4,7 +4,7 @@ subtitle: Week 1 Round 1
 date: 2024-10-17
 
 eventdate:
-  day: 17
+  day: 17th
   month: October
   year: 2024
 

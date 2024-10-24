@@ -3727,7 +3727,7 @@ a.resultspdf {
   align-items: center;
 font-size:1.4rem;
 margin: 0;
-padding: 1rem 2rem;
+padding: 0.5rem 3rem;
 color: var(--darkblue);
 background-color: var(--white);
 border:2px solid var(--darkblue);
@@ -3743,7 +3743,7 @@ a.resultspdf:hover {
   align-items: center;
 font-size:1.4rem;
 margin: 0;
-padding: 1rem 2rem;
+padding: 0.5rem 3rem;
 color: var(--white);
 background-color: var(--darkblue);
 border:2px solid var(--red);
