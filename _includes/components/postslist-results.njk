@@ -1,10 +1,8 @@
-<section class="grid-3-columns" >
+<section class="grid-3-columns resultssum" >
 	{% for post in postslist | reverse %}
 	<summary class="resultssummary">
 			
-	
-
-<div class="Postimagehover">
+<div class="Postimage">
 <a href="{{ post.data.results }}" target="_blank"><img src="{{ post.data.image }}/tr:w-400,h-267" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="400px" height="267px" class="postlistimg"></a>
 </div>
 
@@ -12,18 +10,14 @@
 <div class="postsumtitle">
 <h3><a href="{{ post.data.results }} title="{{ post.data.subtitle }} target="_blank">{{ post.data.subtitle }}</a></h3>
 </div>
-<div class="postsumtitle">
+<div class="postsumdate">
 <p>{{ post.data.eventdate.day }} {{ post.data.eventdate.month }}, {{ post.data.eventdate.year }}</p>
 </div>
 
 <a class="resultspdf" href="{{ post.data.results }}" title="{{ post.data.title }}" target="_blank">Results Pdf &gt;</a>
 				
 
-
-
-
-
-		</summary>
+</summary>
 		
 	{% endfor %}
 </section>
