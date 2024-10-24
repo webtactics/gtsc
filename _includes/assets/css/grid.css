@@ -1958,7 +1958,7 @@ button.blogdetail, .button.blogdetail {margin:0;}
   height: 40svh;
   height: 40vh;
   width: 100%;
-  position:relative;
+  position:fixed;
   top: 0;
   left: 0;
   overflow: hidden;
