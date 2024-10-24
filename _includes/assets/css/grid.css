@@ -1417,11 +1417,10 @@ align-items: center;
 
 
 
-h1.heading-text {
+h1.heading-text, h2.heading-text, h3.heading-text, h4.heading-text, h5.heading-text, h6.heading-text {
     color: var(--white);
-    font-size: 3rem;
     text-align: left;
-    line-height: 3.4rem;
+    line-height: 3rem;
     text-transform: capitalize;
     background-color: var(--darkblue);
     margin-bottom: 3rem;
