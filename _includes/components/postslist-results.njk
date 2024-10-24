@@ -1,0 +1,27 @@
+<section class="grid-3-columns" >
+	{% for post in postslist | reverse %}
+	<summary class="NewsSummary">
+			
+	
+
+<div class="Postimagehover">
+<a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-300,h-200" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="300px" height="200px" class="postlistimg"></a>
+</div>
+
+
+<div class="postsumtitle">
+<h3><a href="{{ post.url | url }}" title="{{ post.data.title }}">{{ post.data.title }}</a></h3>
+</div>
+
+				
+
+<div class="right newssumbutton">
+<a class="button success" role="button" title="{{ post.data.title }}" href="{{ post.url | url }}">Results &gt;</a>
+</div>
+
+
+
+		</summary>
+		
+	{% endfor %}
+</section>
