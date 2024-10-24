@@ -1,5 +1,5 @@
 ---
-layout: layouts/contact.njk
+layout: layouts/grid-default.njk
 title: Contact Gloucester Thunderbolts Swimming Club
 class: contact
 description: How to contact Gloucester Thunderbolts Swimming Club
