@@ -11,10 +11,11 @@ permalink: /
 
 ---
 
-## Website under construction ##
 
-At Gloucester Thunderbolts Swimming Club we provide opportunities for swimmers of all levels to improve their swimming and achieve personal goals. We are a family friendly club offering a friendly and relaxed environment for all swimmers, both young and old. 
 
+At Gloucester Thunderbolts Swimming Club we provide opportunities for swimmers of all levels to improve their swimming, have some fun, and achieve personal goals. 
+
+We are a family friendly club offering a friendly and relaxed environment for all swimmers, both young and old. 
 
 
 
