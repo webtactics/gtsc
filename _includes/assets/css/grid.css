@@ -1793,7 +1793,7 @@ text-align:center;
 
 .toggle-nav {
   display: block;
-  margin: 5px 0 5px 5px;
+  margin: 5px auto;
   font-size: 1rem;
   font-weight: 400;
   color: white;
