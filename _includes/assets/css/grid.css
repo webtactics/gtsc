@@ -2132,17 +2132,7 @@ min-height: 5.8rem;}
 
 .homecards .flex-captionprodlink a:hover {color: var(--primary);}
 
-.resultssumimage img {
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
-  width: 100%;
-}
 
-.resultssumimage img:hover {
-  filter: brightness(110%);
-  transition: all 0.2s ease-in-out;
-  width: 100%;
-}
 
 @media (max-width: 1024px) {
 
@@ -2767,6 +2757,8 @@ font-size:1rem;
   padding: 1.25rem;
   background-color: var(--white);
   border: 1px solid var(--primary);
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -2782,6 +2774,17 @@ font-size:1rem;
   border: 1px solid var(--primary);
 }
 
+.resultssumimage img {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+  width: 100%;
+}
+
+.resultssumimage img:hover {
+  filter: brightness(110%);
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
 
 a.resultspdf {
   display: block;
