@@ -3729,16 +3729,3 @@ font-size:1rem;
   align-items: center;
 }
 
-button.success, .button.success {
-  justify-content: flex-end;
-  padding: 1rem 2rem;
-  border-radius: 30px;
-  font-size: 1rem;
-    color: var(--white);
-      background-color: var(--red);
-}
-
-button.success:hover, .button.success:hover {
-color: var(--white);
-  background-color: var(--black);
-}
