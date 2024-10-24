@@ -2132,13 +2132,13 @@ min-height: 5.8rem;}
 
 .homecards .flex-captionprodlink a:hover {color: var(--primary);}
 
-.homecards img {
+.resultssumimage img {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
   width: 100%;
 }
 
-.homecards img:hover {
+.resultssumimage img:hover {
   filter: brightness(110%);
   transition: all 0.2s ease-in-out;
   width: 100%;
