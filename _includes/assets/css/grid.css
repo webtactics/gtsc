@@ -2775,7 +2775,7 @@ font-size:1rem;
 
 a.resultspdf {
   display: block;
-  align-items: center;
+text-align: center;
 font-size:1.4rem;
 margin: 0;
 padding: 0.5rem 0;
@@ -2783,7 +2783,6 @@ width:100%;
 color: var(--darkblue);
 background-color: var(--white);
 border:2px solid var(--darkblue);
-border-radius: 20px;
 -webkit-transition: all .2s ease-in-out;
 -moz-transition: all .2s ease-in-out;
 -o-transition: all .2s ease-in-out;
@@ -2792,7 +2791,7 @@ transition: all .2s ease-in-out;
 
 a.resultspdf:hover {
   display: block;
-  align-items: center;
+text-align: center;
 font-size:1.4rem;
 margin: 0;
 padding: 0.5rem 0;
@@ -2800,7 +2799,6 @@ width:100%;
 color: var(--white);
 background-color: var(--darkblue);
 border:2px solid var(--red);
-border-radius: 20px;
 -webkit-transition: all .2s ease-in-out;
 -moz-transition: all .2s ease-in-out;
 -o-transition: all .2s ease-in-out;
