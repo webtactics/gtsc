@@ -364,7 +364,7 @@ background-color: var(--primary); font-weight: bold;}
 }
 
 .navbar ul.navbar-menu li.active-class  a {
-    color: var(--black);
+    color: var(--darkblue);
     background: transparent;
 
 }
