@@ -1813,8 +1813,7 @@ text-align:center;
 
  .scrolled .toggle-nav {
 
-  padding:5px;
-}
+ }
 
  @media screen and (max-width: 1025px) {
   .toggle-nav {
