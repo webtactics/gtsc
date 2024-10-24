@@ -2261,30 +2261,32 @@ padding: 3rem 1rem;}
 
 
 .why-changs .grid-2-thanks {
-  grid-template-columns: 1fr 1fr;gap: 4rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
   padding: 0 0 4rem 0;
 }
 
 .grid-2-flex-caption {
-  grid-template-columns: 1fr 1fr;gap: 1rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
 }
 
 .grid-2-homeboxes {
-  grid-template-columns: 1fr 1fr;gap: 0.5rem;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.5rem;
 }
 .grid-3 {
-  grid-template-columns:1fr 1fr 1fr;gap: 1rem;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 1rem;
 }
 .grid-3-buttons {
-  grid-template-columns:1fr 1fr 1fr;gap: 1rem;
+  grid-template-columns:1fr 1fr 1fr;
+  gap: 1rem;
   margin: 1rem 0 2rem 0;
 }
 
 
-.grid-3-products {
-  grid-template-columns: repeat(3, 1fr);
-  gap: 3rem;
-}
+
 
 .grid-3-prod-detail {
   grid-template-columns: 1fr 110px 1fr;
@@ -2360,6 +2362,11 @@ max-width: 600px;}
 }
 .grid-3-columns {
   grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-3-columns.resultssum {
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
 }
 
 .grid-3-recipes-home {
