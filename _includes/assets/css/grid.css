@@ -3738,7 +3738,7 @@ border-radius: 20px;
 transition: all .2s ease-in-out;
 }
 
-a.swimcentral:hover {
+a.resultspdf:hover {
   display: inline-flex;
   align-items: center;
 font-size:1.4rem;
