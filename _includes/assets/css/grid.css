@@ -1958,12 +1958,11 @@ button.blogdetail, .button.blogdetail {margin:0;}
   height: 40svh;
   height: 40vh;
   width: 100%;
-  position:fixed;
+  position:relative;
   top: 0;
   left: 0;
   overflow: hidden;
   object-fit: cover;
-  z-index: -1;
  
 }
 .home.hero {
