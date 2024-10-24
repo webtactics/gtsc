@@ -1864,9 +1864,6 @@ text-align:center;
 
 .hamburger-icon:before {
   content: "";
-  display: flex;
-  align-content: center;
-  justify-content: center;
     width: 40px;
     height: 4px;
     margin:0px;
