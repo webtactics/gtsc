@@ -15,29 +15,3 @@ eleventyNavigation:
 #### All ages and abilities are welcome.
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-```
-
-
