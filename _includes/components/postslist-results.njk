@@ -5,18 +5,18 @@
 	
 
 <div class="Postimagehover">
-<a href="{{ post.url | url }}"><img src="{{ post.data.image }}/tr:w-400,h-267" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="400px" height="267px" class="postlistimg"></a>
+<a href="{{ post.data.results }}"><img src="{{ post.data.image }}/tr:w-400,h-267" alt="{{ post.data.title }}" title="{{ post.data.title }}" width="400px" height="267px" class="postlistimg" target="_blank"></a>
 </div>
 
 
 <div class="postsumtitle">
-<h3><a href="{{ post.url | url }}" title="{{ post.data.title }}">{{ post.data.title }}</a></h3>
+<h3><a href="{{ post.data.results }} title="{{ post.data.subtitle }} target="_blank">{{ post.data.subtitle }}</a></h3>
 </div>
 
 				
 
 <div class="right newssumbutton">
-<a class="button success" role="button" title="{{ post.data.title }}" href="{{ post.url | url }}">Results &gt;</a>
+<a class="button success" role="button" title="{{ post.data.title }}" href="{{ post.data.results }}" target="_blank">Results Pdf&gt;</a>
 </div>
 
 

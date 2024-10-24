@@ -1,5 +1,6 @@
 ---
 title: Club Night Results Week 1 Round 1 2024-25 Season
+subtitle: Week 1 Round 1
 date: 2024-10-17
 
 eventdate:
