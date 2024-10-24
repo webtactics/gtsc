@@ -8,7 +8,7 @@ eventdate:
   month: October
   year: 2024
 
-image: https://ik.imagekit.io/webtactics/GTSC/results/2024-25/results-summary-1.jpg
+image: https://ik.imagekit.io/webtactics/GTSC/results/2024-25/results-summary-17-rain.jpg
 
 metadescription: Club Night Results Week 2 Round 1 2024-25 Season
 
