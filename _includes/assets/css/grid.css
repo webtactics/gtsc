@@ -1396,7 +1396,7 @@ align-items: center;
     background-repeat: repeat;
     background-image: url("/img/gtsc-logo-368x248-30.png");
     background-color: var(--white10);}
-  }
+  
 
 @media (max-width: 1024px) {
 .container {margin: 0 auto;  background-color: var(--white);}
