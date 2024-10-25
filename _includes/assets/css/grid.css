@@ -1390,6 +1390,12 @@ align-items: center;
 }
 
 .container {margin: 0 auto;  background-color: var(--white);}
+.container.resultssummary {
+    position: relative;
+    margin: 0;
+    background-repeat: repeat;
+    background-image: url("https://ik.imagekit.io/webtactics/GTSC/assets/gtsc-logo-blue-500x237-20.png"), linear-gradient(to bottom, #ed1c2e, #e51c2c, #dd1c2b, #d51b29, #cd1b28, #c61b27, #be1b25, #b71b24, #af1b22, #a71a21, #a01a1f, #98191e);
+  }
 
 @media (max-width: 1024px) {
 .container {margin: 0 auto;  background-color: var(--white);}
@@ -1547,96 +1553,15 @@ width: calc(100vw - 2rem);
   min-height: 200px;
 }
 
-.content.emailbgcontainer {
-  margin: 0 auto;
-  padding: 4rem 0;
-  width: calc(100vw - 2rem);
-  max-width: 1440px;
-  background-color: transparent;
-  min-height: 300px;
-}
-@media (max-width: 1400px) {
-  .content.emailbgcontainer {
-    max-width: 1280px;
-  }
-}
-
-.content.emailbox {
-  margin: 0 auto 0 0;
-  padding: 0;
-  width: auto;
-  max-width: 700px;
-  background-color: transparent;
-  min-height: 300px;
-}
-
-.emailbox h3 {
-  color: var(--primary);
-  text-transform: none;
-  font-size: 3rem;
- font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-text-align: left;
-padding:0.5rem;
-margin:0;
-background: var(--white20);
-}
-
-.emailbox p {
-color:var(--black);
-font-size:20px;
-text-align: left;
-font-family: 'Roboto', sans-serif;
-font-weight:500;
-padding: 0.5rem;
-margin:0;
-background: var(--white20);
-}
 
 
-.section.wtb {background-color: var(--white);
-min-height:600px;
-width: 100%;}
 
-.content.wtbbox {
-  margin: 0 auto;
-  padding: 4rem 0;
-  width: calc(100vw - 2rem);
-  max-width: 940px;
-  background-color: transparent;
-  min-height: 300px;
-}
-.changs-house {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  padding:0 0 2rem 0;
-}
 
-.changs-about {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  padding:3rem 0;
-}
 
-.changs-about.top {
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  padding:0 0 3rem 0;
-}
 
-.content.wtbbox h3 {
-  font-size: 3rem;
- font-family: 'Montserrat', Helvetica, Arial, Lucida, sans-serif;
-  color: var(--primary);
-  text-align: center;
-  padding: 2rem 0 0 0;
-  margin: 0;
-}
+
+
+
 
 
 .content.detail {
@@ -1663,13 +1588,7 @@ padding: 0 0 6rem 0;
   }
 
 
-  .emailbox h3 {
-    text-align: center;
-  }
-  
-  .emailbox p {
-    text-align: center;
-  }
+
   
 }
 
