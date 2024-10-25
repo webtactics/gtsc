@@ -1414,7 +1414,7 @@ align-items: center;
 }
 
 .content.secondblock {
-  padding: 3rem 0 6rem;
+  padding: 3rem 0;
   background-color: transparent;
 }
 
@@ -2678,8 +2678,7 @@ font-size:1rem;
   padding: 1.25rem;
   background-color: var(--white);
   border: 1px solid var(--primary);
-  border-top-left-radius: 0.5rem;
-  border-top-right-radius: 0.5rem;
+  border-radius: 0.5rem;
   -webkit-transition: all .2s ease-in-out;
   -moz-transition: all .2s ease-in-out;
   -o-transition: all .2s ease-in-out;
@@ -2717,6 +2716,8 @@ width:100%;
 color: var(--white);
 background-color: var(--primarydark);
 border:2px solid var(--darkblue);
+border-bottom-left-radius: 0.5rem;
+border-bottom-right-radius: 0.5rem;
 -webkit-transition: all .2s ease-in-out;
 -moz-transition: all .2s ease-in-out;
 -o-transition: all .2s ease-in-out;
