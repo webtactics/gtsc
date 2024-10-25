@@ -12,7 +12,7 @@ image: https://ik.imagekit.io/webtactics/GTSC/results/2024-25/results-summary-1.
 
 metadescription: Club Night Results Week 1 Round 1 2024-25 Season
 
-results: results/2024-25/241017-results-week-1-october-17th.pdf
+results: results/2024-25/241017-round-1-week-1-results.pdf
 
 tags:
   - Club-Night
