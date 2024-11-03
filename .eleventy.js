@@ -92,6 +92,7 @@ module.exports = function (eleventyConfig) {
   // Passthrough copies
   eleventyConfig.addPassthroughCopy("favicon.ico");
   eleventyConfig.addPassthroughCopy("static/img");
+  eleventyConfig.addPassthroughCopy("static/fonts");
   eleventyConfig.addPassthroughCopy("static/assets");
   eleventyConfig.addPassthroughCopy("admin/");
   eleventyConfig.addPassthroughCopy("js");
