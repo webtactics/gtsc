@@ -1,0 +1,37 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="en">
+
+{% include "components/head.njk" %}
+
+{% block bodyclass %}<body class=" {{ class }} internal" >{% endblock %}
+
+{% include "components/header.njk" %}
+
+{% include "components/off-canvas.njk" %}
+
+{% block hero %}{% include "components/hero.njk" %}{% endblock %}
+
+<div class="container">
+    
+{% block tagline %}
+<div class="mainblockwrapper">
+    <div class="mainblock">
+        <h1>{{ title }}</h1>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<section role="main" class="content">  
+  {{ content | safe }}
+</section>
+{% endblock %}
+
+{% block content2 %}{% endblock %}
+
+{% include "components/footer.njk" %}
+</div>
+{% include "components/javascript.njk" %}
+
+</body>
+</html>

@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post-treatments.njk",
+    "permalink": "treatments/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+      "treatments"
+    ]
+  }
+  

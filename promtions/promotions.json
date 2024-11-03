@@ -1,0 +1,9 @@
+{
+    "layout": "layouts/post-promotions.njk",
+    "permalink": "promnotions/{{ title | slug }}/index.html",
+    "author": "Anonymous",
+    "tags": [
+      "promotions"
+    ]
+  }
+  

@@ -1,0 +1,45 @@
+{% extends "layouts/default.njk" %}
+
+
+{% block bodyclass %}<body class=" {{ class }} home" >{% endblock %}
+
+{% block hero %}
+{% include "components/hero-home.njk" %}
+{% endblock %}
+
+
+{% block tagline %}
+<div class="mainblockwrapper">
+    <div class="mainblock">
+        <h2>Relax in the ultimate peaceful environment.</h2>
+        <h4>We offer a variety of treatments to help unwind the stresses of mind, body and soul.</h4>
+        <h4>All services are provided by well trained and experienced therapists.</h4>
+        <h3>Feel relaxed at Tararom Authentic Thai Massage.</h3>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+<section role="main" class="content">  
+     <div class="contentbox">{{ content | safe }}</div>
+
+      <h2>Our Treatments and Massages</h2>
+{% set postslist = collections.treatments %}
+{% include "components/postslist-treatments.njk" %}
+  <h2>Weekly Promotions</h2>
+{% set postslist = collections.promotions | reverse %}
+{% include "components/postslist-promotions.njk" %}
+
+<h2>Special Massage Packages</h2>
+{% set postslist = collections.packages | reverse %}
+{% include "components/postslist-packages.njk" %}
+
+{% include "components/gallery.njk" %}
+</section>
+{% endblock %}
+
+
+
+
+
+ 

@@ -1,0 +1,48 @@
+---
+layout: layouts/default.njk
+section: post
+---
+
+
+<div class="grid-2-columns-2x1">
+<div class="detailwrapper">
+<article>
+
+
+<div class="item blogdetail">
+
+<div class="blogdetailimage" align="center"><img src="{{ image }}/tr:w-1000,h-600" alt="{{ imageAlt }}" title="{{ imageAlt }}"></div>
+
+<div class="detailcontent">{{ content | safe }}</div>
+
+
+<div class="NewsSummaryPrice detail"><h4>Price: <span class="red">{{ price }}</span></h4></div>	
+
+  <h3>Health Fund Rebates Available:</h3>
+  <p>AHM, BUPA, ARHG, CBHS, HBF, HCF, MEDIBANK, NIB</p>
+
+
+<a class="button blogdetail" href="/contact/" class="return-link">Make a booking</a>    
+  
+<a class="button blogdetail right" href="/treatments/" class="return-link">Return to the Treatments page</a>    
+</div>
+</article>
+</div>
+<div class="sidebarwrapper">
+<aside>{% set postslist = collections.packages %}{% include "components/postslist-packages-sidebar.njk" %}</aside>
+</div>
+</div>
+
+<div class="gallery">
+{% include "components/gallery.njk" %}
+</div>
+  {% if tags %}
+    <div class="NewsSummaryPrice detail"><h4>Tags</h4>
+    {% for tag in tags %}
+      {%- if tag != "packages" -%}
+        {% set tagUrl %}/packages/{{ tag }}/{% endset %}
+       <div class="tag"><a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a></div>
+      {%- endif -%}
+    {% endfor %}
+    </div>
+  {% endif %}
