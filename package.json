@@ -1,7 +1,7 @@
 {
-  "name": "tararomthaimassage.com.au",
+  "name": "GTSC",
   "version": "1.0.4",
-  "description": "Tararom Authentic Thai & Remedial Massage",
+  "description": "GTSC Swimg club website",
   "scripts": {
     "build": "npx @11ty/eleventy",
     "watch": "npx @11ty/eleventy --watch",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/webtactics/tararomthaimassage.com.au"
+    "url": "https://github.com/webtactics/gtsc"
   },
   "author": {
     "name": "Paul Goldsmith",
@@ -19,9 +19,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/webtactics/tararomthaimassage.com.au/issues"
+    "url": "https://github.com/webtactics/gtsc/issues"
   },
-  "homepage": "https://github.com/webtactics/tararomthaimassage.com.au",
+  "homepage": "https://github.com/webtactics/gtsc",
   "devDependencies": {
     "@11ty/eleventy": "^3.0.0",
     "@11ty/eleventy-navigation": "^0.3.5",
