@@ -62,6 +62,13 @@ module.exports = function (eleventyConfig) {
   }
 
 
+
+      // limit filter for arrays
+      eleventyConfig.addFilter("limit", function (arr, limit) {
+        return arr.slice(0, limit);
+      });
+    
+
     // Minify HTML output
     eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
       if (outputPath.indexOf(".html") > -1) {
