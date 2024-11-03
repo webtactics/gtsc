@@ -1,29 +1,26 @@
 ---
-layout: layouts/contact.njk
-title: Make a booking or get in contact with Tararom Authentic Thai Massage
-aliases:
-- /contact-us
-
-tagline: Make a booking or get in touch with Tararom Authentic Thai Massage
-description: To book a massage please call 02 9623 3692, or use our contact form below. Tararom Authentic Thai Massage is located at 234 Queen St. St.Marys NSW 2760
+layout: layouts/grid-contact.njk
+title: Contact Gloucester Thunderbolts Swimming Club
+class: contact
+description: How to contact Gloucester Thunderbolts Swimming Club
 section: contact
-date: 2024-10-05
+date: 2024-10-31
+metadata:
+  title: Contact  Gloucester Thunderbolts Swimming Club
 permalink: /contact/
 eleventyNavigation:
   key: Contact
-  order: 2
-parent: null
-hasChildren: false
+  order: 4
 ---
 
 
-<h3>We are located in St Marys only 10 minutes walk from the train station. Handy car parking is located at the rear of the shop.</h3>
-  
 
-<p><strong>Address:</strong> 234 Queen St. St.Marys NSW 2760</p>
-<p><strong>Bookings:</strong> <a title="Call Tararom Authentic Thai Massage" href="tel:+61296233692">02 9623 3692</a>, or <a title="Call Tararom Authentic Thai Massage" href="tel:+61449212782">0449 212 782</a></p>
-<p><strong>Trading Hours: </strong> Open 7 Days : 9.30am - 8pm</p>
 
+<p>Gloucester Thunderbolts Swimming Club runs from mid Oct until March on Thursday evenings at 6.00pm at the Gloucester Pool Complex.</p>
+
+<p>All ages and abilities are welcome.<p>
+
+<p>For more information please contact the club via email @ <a href="mailto:gloucesterthunderboltsswimclub@outlook.com">gloucesterthunderboltsswimclub@outlook.com</a>, or use the form below.</p>
 
 
 

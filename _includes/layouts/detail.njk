@@ -1,17 +1,30 @@
 {% extends "layouts/default.njk" %}
 
-{% block hero %}
-{% include "components/hero-detail.njk" %}
-{% endblock %}
 
 
 
 
-{% block content %} <section role="main" class="content">
+{% block content %} 
+
+<main class="detailcontent">  
  <div class="grid-2-columns-2x1">
- <div class="detailwrapper"><article>{{ layoutContent | safe }}</article></div>
- <div class="sidebarwrapper"><aside>{% set postslist = collections.treatments %}
-{% include "components/postslist-sidebar.njk" %}</aside></div>
+
+ <div class="detailwrapper">
+{{ layoutContent | safe }}
+</div>
+<div class="sidebarwrapper">
+<aside>
+<h3>Practice Areas:</h3>
+{% set postslist = collections.services | reverse %}
+{% include "components/postslist-sidebar.njk" %}
+</aside>
+</div>
+
  </div>
-</section>
+
+ {% include "components/global/usefullinks.html" %}
+</main>
 {% endblock %}
+
+
+

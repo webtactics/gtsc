@@ -79,7 +79,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPlugin(metagen);
 
   // Layout aliases
-  eleventyConfig.addLayoutAlias("default", "layouts/default.njk");
+  eleventyConfig.addLayoutAlias("default", "layouts/grid-default.njk");
   eleventyConfig.addWatchTarget("./_includes/");
 
   // Passthrough copies
@@ -88,7 +88,7 @@ module.exports = function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("static/assets");
   eleventyConfig.addPassthroughCopy("admin/");
   eleventyConfig.addPassthroughCopy("js");
-  eleventyConfig.addPassthroughCopy("_includes/assets/css/tararom.css");
+  eleventyConfig.addPassthroughCopy("_includes/assets/css/gtsc-grid.css");
   eleventyConfig.addPassthroughCopy("_includes/assets/js/script.js");
   eleventyConfig.addPassthroughCopy("lightbox.js");
   eleventyConfig.addPassthroughCopy("slick.min.js");

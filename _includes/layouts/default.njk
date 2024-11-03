@@ -3,31 +3,32 @@
 
 {% include "components/head.njk" %}
 
-{% block bodyclass %}<body class=" {{ class }} internal" >{% endblock %}
-
+	
+{% block bodyclass %}<body class="internal {{ class }} " >{% endblock %}
+  
 {% include "components/header.njk" %}
-
-{% include "components/off-canvas.njk" %}
-
-{% block hero %}{% include "components/hero.njk" %}{% endblock %}
+  {% include "components/off-canvas.njk" %}
+  {% block hero %}
+  {% include "components/hero-home.njk" %}
+  {% endblock %}
 
 <div class="container">
-    
-{% block tagline %}
-<div class="mainblockwrapper">
-    <div class="mainblock">
-        <h1>{{ title }}</h1>
-    </div>
-</div>
-{% endblock %}
-
+   
 {% block content %}
-<section role="main" class="content">  
-  {{ content | safe }}
-</section>
+
+<main class="content">  
+{{ layoutContent | safe }}
+</main>
 {% endblock %}
 
-{% block content2 %}{% endblock %}
+
+
+
+<footer class="footernavwrapper"> 
+<div class="footernav">  
+{% include "components/nav-footer.njk" %}
+</div>
+</footer>
 
 {% include "components/footer.njk" %}
 </div>
