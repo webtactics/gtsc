@@ -2853,6 +2853,11 @@ textarea
 .buttonnavwrapper > button:hover {
   background-color: var(--primary);
 }
+.home .hero {
+  height: 40svh;
+  height: 40vh;
+}
+
 
 .slick-slider {
   position:relative;
