@@ -48,8 +48,8 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('/fonts/open-sans-v40-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-       url('/fonts/open-sans-v40-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  src: url('/static/fonts/open-sans-v40-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/static/fonts/open-sans-v40-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 
@@ -59,8 +59,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    src: url('/fonts/montserrat-v26-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('/fonts/montserrat-v26-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url('/static/fonts/montserrat-v26-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('/static/fonts/montserrat-v26-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
   }
   
   /* montserrat-600 - latin */
@@ -69,8 +69,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    src: url('/fonts/montserrat-v26-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('/fonts/montserrat-v26-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url('/static/fonts/montserrat-v26-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('/static/fonts/montserrat-v26-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
   }
   
 
@@ -2853,99 +2853,4 @@ textarea
 .buttonnavwrapper > button:hover {
   background-color: var(--primary);
 }
-.home .hero {
-  height: 40svh;
-  height: 40vh;
-}
 
-
-.slick-slider {
-  position:relative;
-  display:block;
-  box-sizing:border-box;
-  -webkit-touch-callout:none;
-  -webkit-user-select:none;
-  -khtml-user-select:none;
-  -moz-user-select:none;
-  -ms-user-select:none;
-  user-select:none;
-  -ms-touch-action:pan-y;
-  touch-action:pan-y;
-  -webkit-tap-highlight-color:transparent
-}
-.slick-list {
-  position:relative;
-  overflow:hidden;
-  display:block;
-  margin:0;
-  padding:0
-}
-.slick-list:focus {
-  outline:0
-}
-.slick-list.dragging {
-  cursor:pointer;
-  cursor:hand
-}
-.slick-slider .slick-list,
-.slick-slider .slick-track {
-  -webkit-transform:translate3d(0,0,0);
-  -moz-transform:translate3d(0,0,0);
-  -ms-transform:translate3d(0,0,0);
-  -o-transform:translate3d(0,0,0);
-  transform:translate3d(0,0,0)
-}
-.slick-track {
-  position:relative;
-  left:0;
-  top:0;
-  display:block;
-  margin-left:auto;
-  margin-right:auto
-}
-.slick-track:after,
-.slick-track:before {
-  content:"";
-  display:table
-}
-.slick-track:after {
-  clear:both
-}
-.slick-loading .slick-track {
-  visibility:hidden
-}
-.slick-slide {
-  float:left;
-  height:100%;
-  min-height:1px;
-  display:none
-}
-[dir=rtl] .slick-slide {
-  float:right
-}
-.slick-slide img {
-  display:block
-}
-.slick-slide.slick-loading img {
-  display:none
-}
-.slick-slide.dragging img {
-  pointer-events:none
-}
-.slick-initialized .slick-slide {
-  display:block
-}
-.slick-loading .slick-slide {
-  visibility:hidden
-}
-.slick-vertical .slick-slide {
-  display:block;
-  height:auto;
-  border:1px solid transparent
-}
-.slick-arrow.slick-hidden {
-  display:none
-}
-.internalhero {
-  height:100vh
-}
