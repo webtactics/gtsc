@@ -8,7 +8,7 @@ eventdate:
   month: October
   year: 2024
 
-image: https://ik.imagekit.io/webtactics/gtsc/static/img/results/results-summary-2.jpg
+image: https://ik.imagekit.io/webtactics/gtsc/img/results/results-summary-2.jpg
 
 
 
