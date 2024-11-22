@@ -33,6 +33,11 @@
   --navtopheight: 40px;
   --navbottomheight: 60px;
   --mobilenavheight: 60px;
+
+  --h3sum: 1.3rem;
+
+  --h4sum: 1.2rem;
+  --h3h4sumpadding: 0.25rem 0.75rem;
 }
   
   
@@ -43,8 +48,8 @@
   font-family: 'Open Sans';
   font-style: normal;
   font-weight: 400;
-  src: url('https://webtactics.b-cdn.net/fonts/open-sans-v40-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-       url('https://webtactics.b-cdn.net/fonts/open-sans-v40-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+  src: url('/fonts/open-sans-v40-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+       url('/fonts/open-sans-v40-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
 }
 
 
@@ -54,8 +59,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
-    src: url('https://webtactics.b-cdn.net/fonts/montserrat-v26-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('https://webtactics.b-cdn.net/fonts/montserrat-v26-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url('/fonts/montserrat-v26-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('/fonts/montserrat-v26-latin-regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
   }
   
   /* montserrat-600 - latin */
@@ -64,8 +69,8 @@
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
-    src: url('https://webtactics.b-cdn.net/fonts/montserrat-v26-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-         url('https://webtactics.b-cdn.net/fonts/montserrat-v26-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+    src: url('/fonts/montserrat-v26-latin-600.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+         url('/fonts/montserrat-v26-latin-600.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
   }
   
 
@@ -2415,7 +2420,7 @@ h3.sum-title {
   justify-content: flex-start;
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.5rem;
+  font-size:var(--h3sum);
   white-space: normal;
   transition: background-color .6s;
   width:100%;
@@ -2429,8 +2434,8 @@ h3.sum-title a {
   justify-content: flex-start;
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.5rem;
-  padding: 0.25rem 1rem;
+  font-size:var(--h3sum);
+  padding: var(--h3h4sumpadding);
   white-space: normal;
   transition: background-color .6s;
   width:100%;
@@ -2451,10 +2456,10 @@ h3.sum-title-cancelled {
   justify-content: flex-start;
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.5rem;
+  font-size:var(--h3sum);
   white-space: normal;
   transition: background-color .6s;
-  padding: .25rem 1rem;
+  padding: var(--h3h4sumpadding);
   width:100%;
   margin:0;
   min-height: 61px;
@@ -2466,12 +2471,12 @@ h3.sum-title-cancelled {
   justify-content: flex-start;
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.5rem;
+  font-size:var(--h3sum);
   white-space: normal;
   transition: background-color .6s;
   width:100%;
   margin:0;
-  min-height: 88px;
+  min-height: 61px;
 }
 
 .grid-4-columns.resultssum h3.sum-title a {
@@ -2480,13 +2485,13 @@ h3.sum-title-cancelled {
   justify-content: flex-start;
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.5rem;
-  padding: 0.25rem 1rem;
+  font-size:var(--h3sum);
+  padding: var(--h3h4sumpadding);
   white-space: normal;
   transition: background-color .6s;
   width:100%;
   margin:0;
-  min-height: 88px;
+  min-height: 61px;
 }
 
 .grid-4-columns.resultssum h3.sum-title a:hover {
@@ -2502,20 +2507,20 @@ h3.sum-title-cancelled {
   justify-content: flex-start;
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.5rem;
+  font-size:var(--h3sum);
   white-space: normal;
   transition: background-color .6s;
-  padding: .25rem 1rem;
+  padding: var(--h3h4sumpadding);
   width:100%;
   margin:0;
-  min-height: 88px;
+  min-height: 61px;
 }
 
 
 h4.sum-title {
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.3rem;
+  font-size:var(--h4sum);
   line-height: 2;
   white-space: nowrap;
   transition: background-color .6s;
@@ -2529,9 +2534,9 @@ h4.sum-title {
 h4.sum-title a {
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.3rem;
+  font-size:var(--h4sum);
   line-height: 2;
-  padding: 0.25rem 1rem 0.4rem 1rem;
+  padding: var(--h3h4sumpadding);
   white-space: nowrap;
   transition: background-color .6s;
   width:100%;
@@ -2553,7 +2558,7 @@ h4.sum-title a:hover {
 h4.sum-title-cancelled {
   color: var(--white);
   background-color: var(--red);
-  font-size:1.3rem;
+  font-size:var(--h4sum);
   line-height: 2;
   white-space: nowrap;
   transition: background-color .6s;
@@ -2562,6 +2567,7 @@ h4.sum-title-cancelled {
   margin:0;
   border-bottom-left-radius: 0.5rem;
   border-bottom-right-radius: 0.5rem;
+  padding: var(--h3h4sumpadding);
 }
 
 
@@ -2569,7 +2575,7 @@ h4.sum-title-cancelled {
 a.resultspdf {
   color: var(--white);
   background-color: var(--darkblue);
-  font-size:1.3rem;
+  font-size:var(--h3sum);
   border: none;
   padding: 0.25rem 2rem;
   white-space: wrap;
@@ -2595,7 +2601,7 @@ a.resultspdf:hover {
 a.resultspdfsmall {
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.3rem;
+  font-size:var(--h3sum);
   border: none;
   padding: 0.25rem 0.6rem;
   white-space: nowrap;
@@ -2623,7 +2629,7 @@ a.resultspdfsmall:hover {
   a.recordspdfsmall {
       color: var(--white);
       background-color: var(--primary);
-      font-size:1.3rem;
+      font-size:var(--h3sum);
       border: none;
       padding: 0.25rem 0.6rem;
       white-space: nowrap;
@@ -2685,10 +2691,10 @@ a.resultspdfsmall:hover {
 
 .postsumdate {
 background-color: var(--primary);
-padding: 0 1rem;
-min-height: 2.3rem;
+padding: 0 0.75rem;
+min-height: 2rem;
 }
-.postsumdate p {margin:0;line-height:2.3rem;color: var(--white);}
+.postsumdate p {margin:0;line-height:2rem;color: var(--white);}
 
 .committee-title {font-weight: bold;}
 
@@ -2701,7 +2707,7 @@ h3.news-title {
   justify-content: flex-start;
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.5rem;
+  font-size:var(--h3sum);
   white-space: normal;
   transition: background-color .6s;
   width:100%;
@@ -2715,8 +2721,8 @@ h3.news-title a {
   justify-content: flex-start;
   color: var(--white);
   background-color: var(--primary);
-  font-size:1.5rem;
-  padding: 0.25rem 1rem;
+  font-size:var(--h3sum);
+  padding: var(--h3h4sumpadding);
   white-space: normal;
   transition: background-color .6s;
   width:100%;

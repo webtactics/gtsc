@@ -1,6 +1,6 @@
 ---
 title: Coastline Credit Union LC Qualifying Meet Results
-subtitle: Taree Torpedoes LC Qualifying Meet Results
+subtitle: LC Qualifying Meet Results
 date: 2024-11-02
 
 eventdate:
@@ -15,7 +15,7 @@ results: https://www.swimmingnorthcoast.com/_files/ugd/8dab05_6dde64e5459f4fac80
 rain:
 
 tags:
-  - Club-Night
+  - Taree-Torpedoes
   - Results
   - 2024-25-Results
   - 2024-25-Results-SwimNSW
