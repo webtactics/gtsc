@@ -8,7 +8,7 @@ eventdate:
   month: November
   year: 2024
 
-image: https://ik.imagekit.io/webtactics/gtsc/img/results/results-summary-4.jpg
+image: https://ik.imagekit.io/webtactics/gtsc/static/img/results/results-summary-4.jpg
 
 results: /results/2024-25/241107-round-1-week-4-results.pdf
 
