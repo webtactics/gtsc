@@ -1,38 +1,37 @@
 ---
-title: Club Night Round 1 Week 7, 2024-25 Season
-subtitle: GTSC Round 1 Week 7
-date: 2024-11-28
+title: Club Night Round 2 Week 1, 2024-25 Season
+subtitle: GTSC Round 2 Week 1
+date: 2024-12-05
 
 eventdate:
-  day: 28th
-  month: November
+  day: 5th
+  month: December
   year: 2024
 
-image: https://ik.imagekit.io/webtactics/gtsc/img/results/results-summary-7.jpg
+image: https://ik.imagekit.io/webtactics/gtsc/img/results/results-summary-8.jpg
 
 events:
   - freestyle
   - backstroke
   - breaststroke
   - butterfly
-  - medley
 
 freestyle:
   length25: 25
   length50: 50
-  length100: 100
-  length400: 400
+  length200: 200
+
 
 backstroke:
   length25: 25
   length50: 50
-  length100: 100
+
 
 
 breaststroke:
   length25: 25
   length50: 50
-  length100: 100
+
 
 
 butterfly:
@@ -40,7 +39,8 @@ butterfly:
   length50: 50
 
 medley:
-  length400: 400
+  length100: 100
+  length200: 200
 
 
 tags:
@@ -48,7 +48,7 @@ tags:
   - GTSC-Event
   - 2024-25-Season-GTSC
   - 2024-25-Season-Events
-
+ 
 
 time: 6:00pm - 8:00pm
 where: Gloucester Olympic Pool
@@ -56,5 +56,5 @@ map: https://maps.app.goo.gl/JXexsoRAoSNzhJPm7
 
 mapgtsc: https://maps.app.goo.gl/JXexsoRAoSNzhJPm7
 
-entrylink: https://swimcentral.swimming.org.au/events/44b79f3e-2f9b-ef11-8a6a-00224896d583/detail
+entrylink: https://swimcentral.swimming.org.au/events/86137f50-319b-ef11-8a69-002248971738/detail
 ---
